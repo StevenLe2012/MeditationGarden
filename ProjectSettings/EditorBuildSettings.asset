@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/handTrackingScene.unity
     guid: f2fb267af1d6b7f4692e5dd53536e037
+  - enabled: 0
+    path: Assets/Scenes/BasicGrab.unity
+    guid: 13bd76582a631124699f410c1e007f8c
+  - enabled: 0
+    path: Assets/Scenes/BasicGestures.unity
+    guid: b6ca90bab3eb56844a3c394f95246150
+  - enabled: 0
+    path: Assets/Scenes/BasicPoke.unity
+    guid: e6661efa421761b4299803adcd8c1c9a
+  - enabled: 0
+    path: Assets/Scenes/BasicPoseDetection.unity
+    guid: 5661873a4cd8ad8469c072d3852197c2
+  - enabled: 0
+    path: Assets/Scenes/BasicRay.unity
+    guid: 7e040656f12f8dc44a6d88406081f26c
+  - enabled: 0
+    path: Assets/Scenes/ComplexGrab.unity
+    guid: b4db51bf4876fde4ebaca05af639db73
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 185089db97c53104184c7178d3e12ebe, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4cca09b091dc261409917dbdec26f349, type: 2}
