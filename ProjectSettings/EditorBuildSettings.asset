@@ -7,11 +7,8 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/handTrackingScene.unity
-    guid: 88e38d69e5356654b988ca2bd577a3f1
+    guid: f2fb267af1d6b7f4692e5dd53536e037
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 318b32ba70ff8514da4a14b6fc65195a,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7939429f8c1e4e741bdd88077a957af9,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8949eaadb495377439facda4b41de6cf,
-      type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 185089db97c53104184c7178d3e12ebe, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4cca09b091dc261409917dbdec26f349, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8949eaadb495377439facda4b41de6cf, type: 2}
