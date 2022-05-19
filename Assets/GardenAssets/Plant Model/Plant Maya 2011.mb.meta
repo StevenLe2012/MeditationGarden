@@ -1,49 +1,9 @@
 fileFormatVersion: 2
-guid: 6528a294e36aa08479695b17b07a0e05
+guid: 71ae03621590bae40aeae368ef4a3135
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_BodyMat
-    second: {fileID: 2100000, guid: f06a3d13a0118104b9bb0d56f235677e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_BoltMat
-    second: {fileID: 2100000, guid: 35d06b9c43d3fe741b883e2b98e048db, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_HandleBackMat
-    second: {fileID: 2100000, guid: 1272f828a4555774c98f9aaf3cfa6059, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_HandleTopMat
-    second: {fileID: 2100000, guid: 1272f828a4555774c98f9aaf3cfa6059, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_Mouth1Mat
-    second: {fileID: 2100000, guid: 1272f828a4555774c98f9aaf3cfa6059, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_MouthMat
-    second: {fileID: 2100000, guid: 35d06b9c43d3fe741b883e2b98e048db, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_Pipe1Mat
-    second: {fileID: 2100000, guid: 35d06b9c43d3fe741b883e2b98e048db, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WateringCan_Pipe2Mat
-    second: {fileID: 2100000, guid: 35d06b9c43d3fe741b883e2b98e048db, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -75,7 +35,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.025
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -128,7 +88,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.025
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
