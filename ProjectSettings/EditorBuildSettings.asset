@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/handTrackingScene.unity
     guid: f2fb267af1d6b7f4692e5dd53536e037
   - enabled: 0
+    path: Assets/Scenes/BasicRay.unity
+    guid: 7e040656f12f8dc44a6d88406081f26c
+  - enabled: 0
     path: Assets/Scenes/BasicGrab.unity
     guid: 13bd76582a631124699f410c1e007f8c
   - enabled: 0
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BasicPoseDetection.unity
     guid: 5661873a4cd8ad8469c072d3852197c2
-  - enabled: 0
-    path: Assets/Scenes/BasicRay.unity
-    guid: 7e040656f12f8dc44a6d88406081f26c
   - enabled: 0
     path: Assets/Scenes/ComplexGrab.unity
     guid: b4db51bf4876fde4ebaca05af639db73
