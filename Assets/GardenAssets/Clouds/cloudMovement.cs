@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class cloudMovement : MonoBehaviour
-{
+{/*
     //timers
     public float timeLeft = 2f;
     // Update is called once per frame
@@ -15,5 +15,5 @@ public class cloudMovement : MonoBehaviour
         {
             transform.Translate((-1) * Time.deltaTime, (-2) * Time.deltaTime, 0);
         }
-    }
+    }*/
 }

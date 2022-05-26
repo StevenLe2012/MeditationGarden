@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 12974_crocus_flowerMat
-    second: {fileID: 2100000, guid: 726b1a5b957ad6c43a1f2ae3a7902288, type: 2}
+    second: {fileID: 2100000, guid: 107970ed25943ee4aa1af839ec8d6770, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

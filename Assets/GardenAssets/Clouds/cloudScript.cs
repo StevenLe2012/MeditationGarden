@@ -11,12 +11,13 @@ public class cloudScript : MonoBehaviour
 
     //timer
     public float timeLeft = 2f;
-    public float timer    = 1f;
+    public float timer = 1f;
 
 
     // Update is called once per frame
+
     void Update()
-    {
+    {/*
         timeLeft -= Time.deltaTime;
         //if there isn't a cloud
         if (cloudCount != cloudLimit)
@@ -50,5 +51,7 @@ public class cloudScript : MonoBehaviour
         newCloud.transform.parent = transform;
         cloudCount++;
     }
-
+*/
+    }
 }
+    

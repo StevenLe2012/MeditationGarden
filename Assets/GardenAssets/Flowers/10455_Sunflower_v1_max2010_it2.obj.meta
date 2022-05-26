@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 10455_Sunflower_v1_SGMat
-    second: {fileID: 2100000, guid: f80c5899016f63b4dbde7c2c681a417f, type: 2}
+    second: {fileID: 2100000, guid: c3a436cf6e1e44c47af6a98279b55f75, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
