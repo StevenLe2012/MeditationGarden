@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 8bf2d638d8ba50e4594d318bba405226
+  - enabled: 0
+    path: Assets/Scenes/growplant.unity
+    guid: b25ff3a40bc5c904d93386263d463e72
+  - enabled: 0
     path: Assets/Scenes/handTrackingScene.unity
     guid: f2fb267af1d6b7f4692e5dd53536e037
   - enabled: 0
