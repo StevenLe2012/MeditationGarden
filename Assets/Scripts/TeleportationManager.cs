@@ -35,7 +35,7 @@ public class TeleportationManager : MonoBehaviour
 
         RaycastHit hit;
 
-        bool b = Physics.Raycast(ray, out hit, 5, 1 << 3);
+        bool b = Physics.Raycast(ray, out hit, 10, 1);
 
         if (b) {
             currentDestination.transform.position = hit.point;

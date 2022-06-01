@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39928234, g: 0.23839262, b: 0.43585208, a: 1}
+  m_IndirectSpecularColor: {r: 0.40127403, g: 0.23996517, b: 0.43541548, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1310,9 +1310,9 @@ GameObject:
   - component: {fileID: 106174239}
   - component: {fileID: 106174238}
   - component: {fileID: 106174237}
-  - component: {fileID: 106174236}
   - component: {fileID: 106174235}
-  m_Layer: 3
+  - component: {fileID: 106174240}
+  m_Layer: 6
   m_Name: Floor(ref)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1333,22 +1333,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
---- !u!64 &106174236
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106174234}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!23 &106174237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1422,6 +1408,19 @@ Transform:
   m_Father: {fileID: 1895375114}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &106174240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106174234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -4.656613e-10}
 --- !u!1 &116751582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2153,10 @@ PrefabInstance:
     - target: {fileID: 2863792001675218217, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
       propertyPath: m_Name
       value: plantASmall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677079441278419430, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7371338345372980061, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
       propertyPath: m_RootOrder
@@ -4727,6 +4730,10 @@ PrefabInstance:
     - target: {fileID: 2863792001675218217, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
       propertyPath: m_Name
       value: plantASmall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677079441278419430, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7371338345372980061, guid: a547c28f85677304e9a6810d572b6b2c, type: 3}
       propertyPath: m_RootOrder
@@ -12140,7 +12147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965764717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3111742, y: -7.5619917, z: 17.892899}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15859,7 +15866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260129174}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1.3111742, y: 7.4369917, z: -17.892899}
+  m_LocalPosition: {x: 0, y: -0.1294, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
