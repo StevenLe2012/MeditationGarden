@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class PlantGrowth : MonoBehaviour
 {
-    public float timeNeededToGrow = 10f;
+    public float timeNeededToGrow = 5f;
     //private GameObject seed = null;
     public GameObject fullyGrownPlant = null;
     private static float timeWatered = 0;
     private bool hasGrown = false;
+    private Vector3 positionCur; 
+    private Quaternion rotationCur;
+
+    void Start()
+    {
+        positionCur = transform.position;
+        rotationCur = transform.rotation;
+    }
+
     void OnTriggerStay(Collider other)
     {
         if (!hasGrown)
@@ -41,6 +50,7 @@ public class PlantGrowth : MonoBehaviour
             }
 
         }
-
+        transform.position = positionCur;
+        transform.rotation = rotationCur;
     }
 }

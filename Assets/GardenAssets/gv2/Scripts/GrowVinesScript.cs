@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GrowVinesScript : MonoBehaviour
 {
+    public float timeNeededToGrow = 5f;
     public List<MeshRenderer> growVinesMeshes;    
     [Space]
     public float timeToGrow = 5;
@@ -22,9 +23,15 @@ public class GrowVinesScript : MonoBehaviour
 
     private List<Material> growVinesMaterials = new List<Material>();
     private bool fullyGrown;
+    private static int timer = 0;
+    private float count = 0;
+    private Vector3 positionCur; 
+    private Quaternion rotationCur;
     
     void Start()
-    {
+    {   
+        positionCur = transform.position;
+        rotationCur = transform.rotation;
         for(int i=0; i<growVinesMeshes.Count; i++)
         {
             for(int j=0; j<growVinesMeshes[i].materials.Length; j++)
@@ -40,13 +47,18 @@ public class GrowVinesScript : MonoBehaviour
         }
     }
 
-    void Update()
+    void OnTriggerStay(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        Debug.Log("Testing to see if it collides");
+        if (other.gameObject.tag == "growBox")
         {
-            for(int i=0; i<growVinesMaterials.Count; i++)
+            count += Time.fixedDeltaTime;
+            Debug.Log("Time watered is: " + count);
+            while(timer<growVinesMaterials.Count && count > timeNeededToGrow)
             {                
-                StartCoroutine (GrowVines(growVinesMaterials[i]));                
+                StartCoroutine (GrowVines(growVinesMaterials[timer]));
+                StopCoroutine (GrowVines(growVinesMaterials[timer]));  
+                timer++;              
             }
         }
     }
@@ -94,5 +106,11 @@ public class GrowVinesScript : MonoBehaviour
             fullyGrown = true;
         else
             fullyGrown = false;
+    }
+
+    void Update()
+    {
+        transform.position = positionCur;
+        transform.rotation = rotationCur;
     }
 }
