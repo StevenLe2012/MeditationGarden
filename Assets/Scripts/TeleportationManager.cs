@@ -11,7 +11,7 @@ public class TeleportationManager : MonoBehaviour
     private GameObject currentDestination;
     // Start is called before the first frame update
     void Start()
-    {
+    {   
         currentDestination = Instantiate(destination, transform.position, Quaternion.identity);
     }
 
