@@ -31,11 +31,11 @@ public class TeleportationManager : MonoBehaviour
     }
 
     private void checkForDestination() {
-        Ray ray = new Ray(transform.position, transform.rotation * Vector3.down);
+        Ray ray = new Ray(transform.position, transform.rotation * Vector3.up);
 
         RaycastHit hit;
 
-        bool b = Physics.Raycast(ray, out hit, 5, 1 << 3);
+        bool b = Physics.Raycast(ray, out hit, 10, 3);
 
         if (b) {
             currentDestination.transform.position = hit.point;
