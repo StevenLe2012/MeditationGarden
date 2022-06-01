@@ -7,7 +7,7 @@ public class PlantGrowth : MonoBehaviour
     public float timeNeededToGrow = 5f;
     //private GameObject seed = null;
     public GameObject fullyGrownPlant = null;
-    private static float timeWatered = 0;
+    private float timeWatered = 0;
     private bool hasGrown = false;
     private Vector3 positionCur; 
     private Quaternion rotationCur;

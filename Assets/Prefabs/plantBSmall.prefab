@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4536981940751880041}
   - component: {fileID: 1834708285406903596}
   - component: {fileID: -4744665641142080273}
-  - component: {fileID: 7427061209914080429}
+  - component: {fileID: 6598456525749079703}
   m_Layer: 0
   m_Name: plantBSmall
   m_TagString: Untagged
@@ -116,7 +116,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8963598799064123632, guid: 28ffd13ddf2b99d49bf236a1010c1625, type: 3}
---- !u!114 &7427061209914080429
+--- !u!114 &6598456525749079703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524436439798287942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49bae38c0b813824484133576299d7e1, type: 3}
+  m_Script: {fileID: 11500000, guid: bf4bd168592e6ac4c9842c508512fa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeNeededToGrow: 5

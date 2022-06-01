@@ -23,7 +23,7 @@ public class GrowVinesScript : MonoBehaviour
 
     private List<Material> growVinesMaterials = new List<Material>();
     private bool fullyGrown;
-    private static int timer = 0;
+    private int timer = 0;
     private float count = 0;
     private Vector3 positionCur; 
     private Quaternion rotationCur;
