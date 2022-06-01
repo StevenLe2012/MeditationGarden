@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlantGrowth : MonoBehaviour
+public class SunFlowerPlantGrowth : MonoBehaviour
 {
     public float timeNeededToGrow = 5f;
     //private GameObject seed = null;
     public GameObject fullyGrownPlant = null;
     private float timeWatered = 0f;
     private bool hasGrown = false;
-    private Vector3 positionCur; 
+    private Vector3 positionCur;
     private Quaternion rotationCur;
 
     void Start()
     {
         positionCur = transform.position;
-        rotationCur = transform.rotation;
+        rotationCur = Quaternion.Euler(-90, 0, 0);
     }
 
     void OnTriggerStay(Collider other)
