@@ -31,7 +31,7 @@ public class TeleportationManager : MonoBehaviour
     }
 
     private void checkForDestination() {
-        Ray ray = new Ray(transform.position, transform.rotation * Vector3.up);
+        Ray ray = new Ray(transform.position, transform.rotation * Vector3.down);
 
         RaycastHit hit;
 
