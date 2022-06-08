@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TeleportationManager : MonoBehaviour
 {
-    public GameObject player_rig;
+    public GameObject gameObject;
     public GameObject destination;
 
     private bool is_aiming = false;
@@ -25,7 +25,7 @@ public class TeleportationManager : MonoBehaviour
 
     public void Teleport() {
         if (is_aiming && currentDestination.activeSelf) {
-            player_rig.transform.position = currentDestination.transform.position;
+            gameObject.transform.position = currentDestination.transform.position;
             currentDestination.SetActive(false);
         }
     }
